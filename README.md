@@ -43,6 +43,15 @@ $ yarn ou npm install
 # Execute a aplicação em modo de desenvolvimento
 $ docker-compose up
 
+## Para a execução em
+$ docker-compose down
+
+## Iniciar o containe do banco
+$ docker-compose start
+
+## Iniciar aplicação
+$ yarn dev ou npm run dev
+
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
 # O banco de dados do postgres fica no docker que sai na porta 5432:5432
