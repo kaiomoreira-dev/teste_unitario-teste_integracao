@@ -23,6 +23,8 @@ E o banco de dados Postgres:
 [Postgres](https://www.postgresql.org/).
 E o docker para utilizar docker-compose para subir o container do Postgres
 [Docker](https://https://www.docker.com/).
+E instalar o docker-compose pra subir o container.
+[Docker-Compose](https://docs.docker.com/compose/install/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🎲 Rodando o Back End (servidor)
@@ -40,8 +42,8 @@ $ cd src
 # Instale as dependências
 $ yarn ou npm install
 
-# Exutar o container do postgres
-$ docker-compose up
+# Exutar apenas o container do postgres
+$ docker-compose up -d
 
 ## criar database de test fin_api_test dentro do postgress
 $ create database fin_api_test
