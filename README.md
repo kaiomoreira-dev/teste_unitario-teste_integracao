@@ -29,7 +29,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/kaiomoreira-dev/conceito-nodejs-middlewares.git>
+$ git clone <https://github.com/kaiomoreira-dev/teste_unitario-teste_integracao.git>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd teste_unitario-teste_integracao
@@ -40,14 +40,8 @@ $ cd src
 # Instale as dependências
 $ yarn ou npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Exutar o container do postgres
 $ docker-compose up
-
-## Para a execução em
-$ docker-compose down
-
-## Iniciar o containe do banco
-$ docker-compose start
 
 ## criar database de test fin_api_test dentro do postgress
 $ create database fin_api_test
