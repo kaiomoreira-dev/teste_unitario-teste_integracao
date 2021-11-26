@@ -49,8 +49,11 @@ $ docker-compose down
 ## Iniciar o containe do banco
 $ docker-compose start
 
+## criar database de test fin_api_test dentro do postgress
+$ create database fin_api_test
+
 ## Iniciar aplicação
-$ yarn dev ou npm run dev
+$ yarn test ou npm run test
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
